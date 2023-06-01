@@ -1,3 +1,3 @@
-import test from ("package-3-pj")
+import countReset from ("package-3-pj")
 
-console.log(test(1))
+console.log(countReset(1))

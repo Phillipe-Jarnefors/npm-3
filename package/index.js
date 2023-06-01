@@ -1,9 +1,8 @@
-import countUp from "package-1-pj"
-import countDown from "package-2-pj"
+const countUp = require("package-1-pj")
+const countDown = require("package-2-pj")
 
-function countReset() {
-  countUp(-1)
-  countDown(1)
+function countReset(num) {
+  return (num = 0)
 }
 
-module.exports = countReset
+module.exports = { countReset, countDown, countUp }
